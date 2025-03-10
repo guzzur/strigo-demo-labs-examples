@@ -1,0 +1,34 @@
+---
+classes:
+  # - lab_resources:
+  #     - display_name: "AWS EC2 Instance"
+  #       platform_type: "lab"
+  #       image_platform: "linux"
+  #       view_interface: "desktop"
+  #       cloud_provider: "aws"
+  #       aws_vm_definition:
+  #         machine_size: "t2.micro"
+  #         ami_region_mapping:
+  #           eu-west-1:
+  #             image_id: "ami-0b32f4a77e48fcb24"
+  #         custom_username: "ec2-user"
+  #         custom_password: "password123"
+  - exercises:
+      - file: "../aws-console-demo/1.md"
+        title: "Welcome!"
+        syntax: "md"
+      - file: "../aws-console-demo/2.md"
+        title: "Practice lab"
+        syntax: "md"
+      # - file: "../aws-console-demo/3.md"
+      #   title: "AWS services overview"
+      #   syntax: "md"
+      # - file: "../aws-console-demo/4.md"
+      #   title: "AWS Console description"
+      #   syntax: "md"
+      # - file: "../aws-console-demo/5.md"
+      #   title: "Manage users and access"
+      #   syntax: "md"
+      # - file: "../aws-console-demo/6.md"
+      #   title: "Which of the following is the most secure way to grant permissions to a group of users in AWS IAM?"
+      #   syntax: "md"
